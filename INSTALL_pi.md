@@ -11,4 +11,4 @@ We've been using this version of pd, but it should work on pd vanilla. Up to you
 # Open Stage Control
 
 # Other configuration files
-
+TO BE COMPLETED
