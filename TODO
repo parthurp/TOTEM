@@ -1,0 +1,10 @@
+#### urgent
+TEST ON THE RPI AND THEN GOOOO ONLINE
+
+#### to fix
+- sometimes several vibrations felt for only one note: detection is not working properly? texture too random?
+- tremors not adapted to long notes... add a threshold? (adapt high threshold?)
+- add a noise gate very much upstream of the work flow
+
+#### ideas for future versions
+- change the way the oo_preseti messages are generated, instead of adding it manually, consider generating it automatically

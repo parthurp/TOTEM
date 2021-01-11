@@ -1,0 +1,10 @@
+#N canvas 741 401 450 300 12;
+#X obj 40 40 adc~ 1 2;
+#X text 100 40 general audio in 1 & 2 from the mixing desk!;
+#X obj 150 195 *~;
+#X obj 90 195 *~;
+#X text 52 195 vib1;
+#X text 174 195 vib2;
+#X obj 90 232 dac~ 1 2, f 9;
+#X connect 2 0 6 1;
+#X connect 3 0 6 0;
