@@ -1,0 +1,24 @@
+# This file is an example of what /boot/hotspot.txt can be.
+#
+# If an option is not provided in the file, its default value will
+# be used.
+
+# `ssid` is the network name that will be detected.
+# Its length should be between 1 and 32 characters.
+#
+# Default value is ssid=Rpi Access Point
+ssid=TOTEM6
+
+# `passphrase` is the password required to connect to the network.
+# Its length should be between 8 and 63 characters (WPA-PSK).
+#
+# Default value is passphrase=rpi_ap_pass
+passphrase=password
+
+# hostname will be appendded to the SSID by default. The `hide_hostname` option
+# is used to prevent this behavior. This is convenient to differenciate hosts
+# configured with the same SSID.
+#
+# Default value is not specified, hostname will be appendded.
+# To disable this behavior, `hide_hostname=1`. Any other value will be ignored.
+hide_hostname=1

@@ -2,15 +2,17 @@ This directory contains several files that have different roles (& places in the
 
 # JSON files 
 They are used by Open Stage Control (presumed already installed on the Pi).
+* GenVibs.json (in /home/pi/Documents/totem)
 
 # Pure Data files
 General rule is: copy whatever pd file you want (or generate your own), rename it "GenVibs.pd" and place it into RPi's directory /home/pi/Documents/totem, RPi autostart files will do the rest!
 * GenVibs.pd
 
-* * In folder GenVibs_others/
+** In folder GenVibs_others/
 * GenVibs_original_2020_12_16.pd is a backup of the PD patch that was provided as a deliverable at the end of the project TOTEM. It works! But some issues remain, such as the memory-consuming GUIs and other minor bugs.
 * GenVibs_base.pd is a baseline patch that contains the minimal functions to help you build your own patch converting sound into vibration (should be improved, though, as it is very minimal)
-* * In folder utils/
+
+** In folder utils/
 * monitor.pd: a simple abstraction you may want to use for monitoring signals within your patch (allows to visualize the energy through env~, and the waveform on an array)
 
 

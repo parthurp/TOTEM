@@ -1,0 +1,8 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
+
+sleep 10;
+node /home/pi/Documents/open-stage-control-1.7.6-node/ -d -s 10.99.99.1:9000 -l /home/pi/Documents/totem/GenVibs.json &
+pd-l2ork -alsa -r 48000 -blocksize 1024 /home/pi/Documents/totem/GenVibs.pd
