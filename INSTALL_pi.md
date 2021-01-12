@@ -20,11 +20,12 @@ Is to be installed on your RPi. Install it from here: https://openstagecontrol.a
 On our configuration (see the image file provided above), this is open stage control version 1.7.6, which is installed in /home/pi/Documents/
 
 * Other configuration files
->> conf/autostart
+... conf/autostart
 (to be put in /home/pi/.config/lxsession/LXDE-pi/ and in /etc/xdg/lxsession/LXDE-pi)
 this file ensures pd and open stage control are launched when booting the RPi
 if your PD or Open Stage Control configuration is different from ours, please change this file accordingly (paths, versions, etc.)
->> conf/hotspot.txt
+
+... conf/hotspot.txt
 (to be put in /boot/)
 this file configures the hotspot name and password, for connecting your smartphone to the RPi
 
