@@ -3,6 +3,7 @@ This file explain what should be installed on the Raspberry Pi (and how it shoul
 # RPi working image file (for RPi 3B+)
 This is the surest way of getting your system to work: cloning the image file. Just download it and put/mount it in a 16GB micro-SD card that you'll insert in your RPi. And that's it!
 The image is available here:
+https://yncrea-my.sharepoint.com/:u:/g/personal/arthur_pate_yncrea_fr/EWpFaAHUYxVKvHUp-UKaze4BmgSpEepBw2IumgM5pyeP2g?e=dtwjnL
 
 # Otherwise, if you want to install the necessary files and software on another RPi configuration, here follows a list of what (and where) should be installed
 * Pure Data
