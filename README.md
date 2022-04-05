@@ -39,3 +39,13 @@ cd timbreID/
 make
 sudo make install
 sudo cp -r /usr/local/lib/pd-externals/tID/ /usr/lib/puredata/extra/
+
+
+# AND NOW: HOW TO USE IT?
+(instructions in French are in file "TOTEM-Manuel.pdf")
+- connect the RPi to the (black, USB) battery to ignite it
+- check the (blue, non-USB) battery is connected to the amplifier, and switch on the battery (on/off switch on the side)
+- plug audio into the input of the (red) sound interface
+- wait a bit (1 or 2 minutes)
+- get your mobile phone, turn wifi on, and connect to the network called "TOTEM1" if you have in hands the device named "TOTEM1" (else, change 1 into the correct number). Password is "password".
+- go to your web browser and type "10.99.99.1:8080" then enter
